@@ -1,0 +1,4 @@
+suites:
+     pumpkin_suite:
+         namespace: Pumpkin
+         psr4_prefix: Pumpkin

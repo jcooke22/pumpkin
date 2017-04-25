@@ -1,0 +1,23 @@
+{
+  "name": "jcooke22/pumpkin",
+  "authors": [
+    {
+      "name": "James Cooke"
+    }
+  ],
+  "require-dev": {
+    "behat/behat": "^3.3",
+    "phpspec/phpspec": "^3.2"
+  },
+  "config": {
+    "bin-dir": "bin/" 
+  },
+  "require": {
+    "symfony/console": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pumpkin\\": "src/"
+    }
+  }
+}
