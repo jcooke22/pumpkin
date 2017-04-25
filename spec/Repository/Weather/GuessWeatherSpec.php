@@ -3,13 +3,13 @@
 namespace spec\Pumpkin\Repository\Weather;
 
 use Pumpkin\Location\LocationInterface;
-use Pumpkin\Repository\Weather\GuessWeatherRepository;
+use Pumpkin\Repository\Weather\GuessWeather;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Pumpkin\Repository\Weather\WeatherRepositoryInterface;
 use Pumpkin\Weather\CurrentStatus;
 
-class GuessWeatherRepositorySpec extends ObjectBehavior
+class GuessWeatherSpec extends ObjectBehavior
 {
     public function getMatchers()
     {

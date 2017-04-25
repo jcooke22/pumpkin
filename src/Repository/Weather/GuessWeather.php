@@ -5,7 +5,7 @@ namespace Pumpkin\Repository\Weather;
 use Pumpkin\Location\LocationInterface;
 use Pumpkin\Weather\CurrentStatus;
 
-class GuessWeatherRepository implements WeatherRepositoryInterface
+class GuessWeather implements WeatherRepositoryInterface
 {
     /**
      * @var array
